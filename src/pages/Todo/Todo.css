@@ -1,10 +1,29 @@
+
+.todo{
+    height: 30rem;
+}
+.tasks{
+    position : relative;   
+    margin: 0 auto;
+}
+.tasks-desc{
+   
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
 .tasks{
     position : relative;    
+
 }
 
 .tasks-container {
     display: flex;
     padding-top: 2rem;
+
+    background-color: var( --lightblue);
+    
+
 }
 
 .container-heading {
