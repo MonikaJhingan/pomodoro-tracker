@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -24,3 +25,12 @@ export const Home = () => {
     </div>
   );
 };
+
+import React from 'react'
+
+export const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+

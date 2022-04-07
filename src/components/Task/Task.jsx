@@ -3,6 +3,7 @@ import "./Task.css";
 import { MdEdit, MdOutlineDeleteOutline } from "react-icons/md";
 import { useTodo } from "../../context/todo-context";
 
+
 import { useNavigate } from "react-router-dom";
 import { useModal } from "../../context/modal-context";
 export const Task = () => {
@@ -15,10 +16,14 @@ export const Task = () => {
     setPomodoroDesc([{ title, desc }]);
   };
 
+export const Task = () => {
+  const { taskAdded, dispatch } = useTodo();
+
   return (
     <div>
       {taskAdded &&
         taskAdded.map((task) => {
+
           const { id, title, desc } = task;
           return (
             <div className="task" key={id}>
@@ -28,6 +33,12 @@ export const Task = () => {
               >
                 {title}
               </div>
+
+          const { id, title } = task;
+          return (
+            <div className="task" key={id}>
+              <div className="task-title">{title}</div>
+
               <div className="task-buttons">
                 <MdOutlineDeleteOutline
                   className="task-delete"

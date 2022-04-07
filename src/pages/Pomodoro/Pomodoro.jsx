@@ -1,3 +1,4 @@
+
 import React from "react";
 import { PomodoroTimer } from "../../components/index";
 import { PomodoroDescription } from "../../components/index";
@@ -10,3 +11,12 @@ export const Pomodoro = () => {
     </div>
   );
 };
+
+import React from 'react'
+
+export const Pomodoro = () => {
+  return (
+    <div>Pomodoro</div>
+  )
+}
+

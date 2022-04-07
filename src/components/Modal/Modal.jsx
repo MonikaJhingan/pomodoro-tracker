@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Modal.css";
 
+
 import { useTodo } from "../../context/todo-context";
 import { useModal } from "../../context/modal-context";
 export const Modal = () => {
@@ -17,6 +18,14 @@ export const Modal = () => {
     setBreakLimit((prev) => e.target.value);
   };
 
+
+
+import { useTodo } from "../../context/todo-context";
+export const Modal = () => {
+  const { editClicked, dispatch, itemBeingEdited } = useTodo();
+
+  const [title, setTitle] = useState(editClicked ? itemBeingEdited.title : "");
+  const [desc, setDesc] = useState(editClicked ? itemBeingEdited.desc : "");
 
 
   return (
@@ -38,6 +47,7 @@ export const Modal = () => {
           value={desc}
           onChange={(e) => setDesc(e.target.value)}
         ></textarea>
+
         <p className="model-head">time limit</p>
         <select
           value={timerLimit}
@@ -64,6 +74,8 @@ export const Modal = () => {
           <option value="10">10</option>
           <option value="15">5</option>
         </select>
+
+
       </form>
       <div className="modal-buttons">
         {editClicked ? (
@@ -72,6 +84,7 @@ export const Modal = () => {
             onClick={() =>
               dispatch({
                 type: "UPDATE_HANDLER",
+
                 payload: {
                   id: itemBeingEdited.id,
                   title,
@@ -79,6 +92,9 @@ export const Modal = () => {
                   timerLimit,
                   breakLimit,
                 },
+
+                payload: { id: itemBeingEdited.id, title, desc },
+
               })
             }
           >
@@ -88,10 +104,14 @@ export const Modal = () => {
           <button
             className="modal-btn modal-add"
             onClick={() =>
+
               dispatch({
                 type: "ADD_HANDLER",
                 payload: { title, desc, timerLimit, breakLimit },
               })
+
+              dispatch({ type: "ADD_HANDLER", payload: { title, desc } })
+
             }
           >
             add
