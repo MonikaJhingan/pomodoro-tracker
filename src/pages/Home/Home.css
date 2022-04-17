@@ -1,0 +1,36 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-heading {
+    margin-left: 3rem;
+    text-align: left;
+    color: var(--light-blue);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    width: 90%;
+    
+  }
+  .home-clock {
+    margin-right: 1rem;
+    margin-left: auto;
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-btn {
+    border: black;
+    padding: 9px 0;
+    margin: 3rem;
+    width: 15rem;
+    color: var(--black);
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration:wavy;
+  }
