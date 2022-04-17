@@ -1,14 +1,22 @@
 * {
-  padding: 0;
-  margin: 0;
+  
+  margin: 0px;
   box-sizing: border-box;
+  border-radius: 15px;
+  
 }
 :root{
-  --primary-color: rgb(6, 179, 83);
-  --secondary-color: rgb(255, 255, 255);
-  --black : black;
+  --primary-color: rgb(31, 154, 6);
+  --secondary-color: rgba(166, 22, 9, 0.856);
+  --black : rgb(88, 212, 237);
+  --lightblue: rgb(5, 55, 74);
+  background-color: rgb(35, 243, 7);
 }
 .App {
   text-align: center;
-  background-color: rgb(159, 240, 159);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  
+  
 }

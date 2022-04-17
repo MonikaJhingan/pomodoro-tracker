@@ -1,3 +1,4 @@
+import React from 'react'
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
@@ -8,9 +9,9 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/pomodoro" element={<Pomodoro/>} />
-        <Route path="/todo" element={<Todo/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/pomodoro" element={<Pomodoro />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </div>
   );

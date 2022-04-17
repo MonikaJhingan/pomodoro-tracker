@@ -4,7 +4,7 @@ import { Task } from "../Task/Task";
 export const Tasks = () => {
   return (
     <div className="tasks">
-      <Task />
+      <Task/>
     </div>
   );
 };

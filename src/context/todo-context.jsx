@@ -1,3 +1,4 @@
+import React from 'react'
 import { useContext, createContext, useReducer } from "react";
 
 import { todoReducer } from "../reducer/todo-reducer";
@@ -14,6 +15,7 @@ const TodoProvider = ({ children }) => {
       taskAdded: [],
       editClicked: false,
       itemBeingEdited: null,
+      
     }
   );
 
