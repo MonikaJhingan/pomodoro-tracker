@@ -8,7 +8,7 @@ export const Todo = () => {
   const { showModal, dispatch, taskAdded } = useTodo();
   return (
     <div className="todo">
-      <h1 className="tasks-heading">Welcome back</h1>
+      <h1 className="tasks-heading">Welcome again!!!</h1>
       <p className="tasks-desc">
         {!taskAdded.length > 0
           ? `no task left`
@@ -17,7 +17,7 @@ export const Todo = () => {
 
       <div className="tasks">
         <div className="tasks-container">
-          <h2 className="container-heading">to do list</h2>
+          <h2 className="container-heading">To do list</h2>
           <button
             className="container-icon"
             onClick={() => dispatch({ type: "MODAL" })}
