@@ -11,7 +11,7 @@
   .break-timer,
   .focus-time,
   .focus-mode {
-    color: var(--black);
+    color: var(--secondary-color);
   }
   .remaining-time {
     font-size: 1.4rem;
