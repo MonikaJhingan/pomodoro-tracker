@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Pomodoro Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pomodoro Technique is an Effective Time Management technique That increases your focus Level and hence increase your productivity.
 
-## Available Scripts
+### In this we try to to to a task for at least 25 min and then take a 5 min break . This break is called Pomodoro Break. We contnue this process till 4 times and the 4th break is the longer one.
 
-In the project directory, you can run:
 
-### `yarn start`
+# Features Of this App:-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Create Task
+- Remove Task
+- Update Task
+- Save Task
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Start Timer
+- Stop timer
+- Restart Timer
 
-### `yarn test`
+-Works in 2 modes(user can select any of the two modes
+   - Focus Mode
+   - Break Mode
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+#### Features that nedd to be added in future are:-
+-Light/Dark Themes
+-User data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## HOMEPAGE 
+![image](https://user-images.githubusercontent.com/67049170/163737064-1e92e4c7-f6d9-4ef8-86fc-f88363b2e5a9.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Task Page
+![Screenshot (245)](https://user-images.githubusercontent.com/67049170/163737293-73c90ba3-9062-4d00-ba0c-43cbecb0527e.png)
 
-### `yarn eject`
+## Add Task Page
+![Screenshot (247)](https://user-images.githubusercontent.com/67049170/163737391-e2d72191-46a2-45eb-ab5e-1c66bbee4cb3.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Update, Remove, Edit Task Page
+![Screenshot (248)](https://user-images.githubusercontent.com/67049170/163737469-a0aaa7c6-bfcb-40be-8f96-256f8bb028dd.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Pomodoro Timer Page
+![Screenshot (252)](https://user-images.githubusercontent.com/67049170/163737561-860543e8-6a21-4c60-a7bd-7edc00271941.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Restart Timer page
+![Screenshot (256)](https://user-images.githubusercontent.com/67049170/163737697-51410d9e-e940-4266-b799-52adb78fcd36.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### This is a react based project with mock backend.
